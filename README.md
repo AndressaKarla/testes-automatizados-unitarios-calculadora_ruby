@@ -1,8 +1,8 @@
 ---
-# Projeto de Testes Automatizados Unitários | Ruby | Rspec | GitHub Actions :test_tube:
+# :test_tube: Projeto de Testes Funcionais Automatizados Unitários | Ruby v3.1.2 | Rspec | GitHub Actions 
 ---
 # :information_source: Introdução
-Esse projeto "testes-automatizados-unitarios-calculadora_ruby" é executado diretamente no código-fonte em uma calculadora, com o objetivo de praticar testes automatizados unitários em Ruby nas ferramentas Rspec e GitHub Actions.
+Este projeto "testes-automatizados-unitarios-calculadora_ruby" é executado diretamente no código-fonte em uma [calculadora](./apps/calculadora.rb), com o objetivo de praticar testes automatizados unitários em Ruby v3.1.2, Rspec e GitHub Actions.
 
 ---
 # :dart: Executar testes automatizados unitários diretamente no código-fonte, Gerar e armazenar relatório html no GitHub Actions 
@@ -10,16 +10,16 @@ Esse projeto "testes-automatizados-unitarios-calculadora_ruby" é executado dire
 - Na seção "Actions", clicar em "Pipeline Testes Automatizados Unitários Calculadora Ruby"
 - Em "This workflow has a workflow_dispatch event trigger.", clicar em "Run workflow" > "Run workflow" para executar testes automatizados unitários, gerar e armazenar relatório html no GitHub Actions 
 - Após o término da execução, clicar na run "Pipeline Testes Automatizados Unitários Calculadora Ruby"
-- Na seção "Artifacts", clicar em "relatorio-testes-unitarios-calculadora-ruby"
-- Na janela aberta, escolher um diretório para baixar a pasta compactada "relatorio-testes-unitarios-calculadora-ruby.zip"
+- Na seção "Artifacts", clicar em "report-testes-unitarios-calculadora-ruby"
+- Na janela aberta, escolher um diretório para baixar a pasta compactada "report-testes-unitarios-calculadora-ruby.zip"
 
 
 # Verificar no navegador padrão o relatório html gerado e armazenado anteriormente no GitHub Actions e descompactado no computador :female_detective: 
 - Abrir uma janela do "Windows Explorer"
-- Acessar o diretório onde foi baixada a pasta compactada "relatorio-testes-unitarios-calculadora-ruby.zip" anteriormente
+- Acessar o diretório onde foi baixada a pasta compactada "report-testes-unitarios-calculadora-ruby.zip" anteriormente
 - Descompactar a pasta
-- Acessar a pasta descompactada "relatorio-testes-unitarios-calculadora-ruby"
-- Clicar 2 vezes sob o relatório "relatorio-testes-unitarios-calculadora-ruby.html" gerado e armazenado anteriormente no GitHub Actions e descompactado para ser aberto e verificado no navegador padrão no computador
+- Acessar a pasta descompactada "report-testes-unitarios-calculadora-ruby"
+- Clicar 2 vezes sob o relatório "report-testes-unitarios-calculadora-ruby.html" gerado e armazenado anteriormente no GitHub Actions e descompactado para ser aberto e verificado no navegador padrão no computador
 
 
 ---
@@ -94,7 +94,7 @@ cd "<diretório copiado anteriormente>"
 ```
 Ex.: 
 ```
-cd "C:\Users\usuario\Desktop"
+cd "C:\Projetos\Automação"
 ```
 - Informar o comando abaixo para clonar este repositório via "HTTPS"
 
@@ -116,7 +116,7 @@ cd testes-automatizados-unitarios-calculadora_ruby
 ```
 Ex.: 
 ```
-C:\Users\usuario\Desktop\testes-automatizados-unitarios-calculadora_ruby
+C:\Projetos\Automação\testes-automatizados-unitarios-calculadora_ruby
 ```
 - Informar o comando abaixo para instalar todas as dependências necessárias do projeto 
 ```
@@ -154,7 +154,7 @@ cd "<diretório copiado anteriormente>"
 ```
 Ex.: 
 ```
-cd "C:\Users\usuario\Desktop\testes-automatizados-unitarios-calculadora_ruby"
+cd "C:\Projetos\Automação\testes-automatizados-unitarios-calculadora_ruby"
 ```
 - Informar o comando abaixo para executar cada feature individualmente do projeto:
 ```
@@ -183,9 +183,9 @@ code .
 
 
 ## :bookmark_tabs: Relatório html no computador
-- No VS Code aberto anteriormente, acessar "relatorios > relatorio-testes-unitarios-calculadora-ruby.html" 
-- Clicar com botão direito do mouse sob o arquivo "relatorio-testes-unitarios-calculadora-ruby.html" > "Reveal in File Explorer" 
-- Na janela do "Windows Explorer" aberta automaticamente, clicar 2 vezes sob o arquivo "relatorio-testes-unitarios-calculadora-ruby.html" para ser aberto e visualizado no navegador padrão
+- No VS Code aberto anteriormente, acessar "reports > report-testes-unitarios-calculadora-ruby.html" 
+- Clicar com botão direito do mouse sob o arquivo "report-testes-unitarios-calculadora-ruby.html" > "Reveal in File Explorer" 
+- Na janela do "Windows Explorer" aberta automaticamente, clicar 2 vezes sob o arquivo "report-testes-unitarios-calculadora-ruby.html" para ser aberto e visualizado no navegador padrão
 
 
 ---

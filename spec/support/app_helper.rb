@@ -1,4 +1,4 @@
-Dir[File.join(File.dirname(__FILE__), "../app/*.rb")].each {|file| require file}
+Dir[File.join(File.dirname(__FILE__), "../../apps/*.rb")].each {|file| require file}
 
 module Apps
     def calculadora
